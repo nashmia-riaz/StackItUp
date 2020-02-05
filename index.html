@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Stack It Up</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web Build.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 400px; height: 800px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="title">Stack It Up</div>
+      </div>
+      <div id="APK-download">
+        Find an APK version for Android <a href="Stack It Up.apk">here</a>.
+      </div>
+    </div>
+  </body>
+</html>
