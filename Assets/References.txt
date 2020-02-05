@@ -1,0 +1,4 @@
+Looped music taken from https://www.youtube.com/watch?v=1qAcxy8whyE&list=PLya__OBTLMkONuQDu0kHDCrml2xuEINSi&index=8
+Game over sound from https://www.youtube.com/watch?v=zpG1Ywmbioc
+All the rest of the sounds are royalty free from freesound.org
+Vibration script from https://gist.github.com/aVolpe/707c8cf46b1bb8dfb363
